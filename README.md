@@ -43,8 +43,8 @@ Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on diff
 4.Write the function(Declare,Define,Call)
 
 5.Build Debug and Create 'hex file'
-  
-6. Open a new Proteus Project.
+
+6.Open a new Proteus Project.
 
 7.Select ports STM32F401RB, LED and Push Button.
 
