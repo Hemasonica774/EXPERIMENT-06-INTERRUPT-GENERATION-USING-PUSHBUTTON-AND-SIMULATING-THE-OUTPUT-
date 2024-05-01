@@ -34,16 +34,23 @@ One important thing to note here is that same number pins are connected to line 
 Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on different modes of the signal : rising edge, falling edge or rising_falling edge.
 ## Procedure:
 
+1.Selecting GPIO Ports
+   
+2.PA5 -> GPIO Output
+ 
+3.Configure the PC13 Port at Pull up Mode followed by generating the code.
 
-  1. Selecting GPIO Ports
-  2. PA5 -> GPIO Output
-  3. Configure the PC13 Port at Pull up Mode followed by generating the code.
-  4.Write the function(Declare,Define,Call)
-  5.Build Debug and Create 'hex file'
-  6. Open a new Proteus Project.
-  7. Select ports STM32F401RB, LED and Push Button.
-  8.Connect PA5 to LED and PC13 to Push Button.
-  9.Check for execution of the output using Push Button option.
+4.Write the function(Declare,Define,Call)
+
+5.Build Debug and Create 'hex file'
+  
+6. Open a new Proteus Project.
+
+7.Select ports STM32F401RB, LED and Push Button.
+
+8.Connect PA5 to LED and PC13 to Push Button.
+
+9.Check for execution of the output using Push Button option.
 
 
   
